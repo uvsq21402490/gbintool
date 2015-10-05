@@ -2,6 +2,12 @@ package fr.uvsq.gbintool
 
 class Main {
     static void main(def args) {
-        println 'Hello'
+		Main m = new Main()
+        println m.returnHello()
     }
+    
+    String returnHello() {
+		'Hello'
+    }
+    
 }
